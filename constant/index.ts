@@ -1,2 +1,2 @@
-export const API_URL = "https://api.example.com";
-export const APP_NAME = "AirBnB Clone";
+export const API_URL = "";
+export const APP_NAME = "";
