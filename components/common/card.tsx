@@ -1,8 +1,14 @@
-import React from "react";
+import React, { ReactNode } from "react";
 
-const Card = () => {
+interface CardProps {
+  children: ReactNode;
+}
+
+const Card: React.FC<CardProps> = ({ children }) => {
   return (
-    <div></div>
+    <div className="rounded overflow-hidden shadow-lg p-4">
+      {children}
+    </div>
   );
 };
 
