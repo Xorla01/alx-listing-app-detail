@@ -13,12 +13,14 @@ const Header: React.FC = () => {
     return (
         <header className="bg-white shadow-md sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-20">
-                <div className="flex items-center space-x-2">
-                    <Image 
-                        className="h-10 w-10 object-cover rounded-full" 
-                        src="/logo.png" 
-                        alt="Logo" 
+                <div className="relative w-10 h-10">
+                    <Image
+                        src="/assets/HeroImages/Image1.png"
+                        alt="Logo"
+                        fill
+                        className="object-cover rounded-full"
                     />
+                
                     <span className="text-2xl font-bold text-gray-800">MyStay</span>
                 </div>
 
