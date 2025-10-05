@@ -5,10 +5,6 @@ export interface CardProps {
     image: string;
 }
 
-export interface ButtonProps {
-  
-}
-
 export interface PropertyProps {
   name: string;
   address: {
@@ -26,11 +22,30 @@ export interface PropertyProps {
   };
   image: string;
   discount?: string;
+  description: string;
+    reviews: {
+    avatar: string;
+    name: string;
+    comment: string;
+    rating: string | number;
+  }[];
 }
-
 
 export interface PillProps {
   label: string;
   active?: boolean;
   onClick?: () => void;
+}
+
+export interface ReviewProps {
+  reviews: {
+    avatar: string;
+    name: string;
+    comment: string;
+    rating: string | number;
+  }[];
+}
+
+export interface BookingProps {
+  price: number;
 }

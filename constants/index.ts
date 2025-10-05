@@ -1,11 +1,12 @@
 import { PropertyProps } from "@/interfaces";
 
-export const PROPERTYLISTINGSAMPLE: PropertyProps [] = [{
+export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
+  {
     name: "Villa Ocean Breeze",
     address: {
       state: "Seminyak",
       city: "Bali",
-      country: "Indonesia"
+      country: "Indonesia",
     },
     rating: 4.89,
     category: ["Luxury Villa", "Pool", "Free Parking"],
@@ -13,35 +14,67 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps [] = [{
     offers: {
       bed: "3",
       shower: "3",
-      occupants: "4-6"
+      occupants: "4-6",
     },
     image: "/assets/ListingImages/image_5.png",
-    discount: ""
+    discount: "",
+    description:
+      "A serene villa with panoramic ocean views and modern tropical design. Perfect for families or couples seeking luxury by the beach.",
+    reviews: [
+      {
+        avatar: "/images/user1.jpg",
+        name: "Ama Serwaa",
+        comment: "Breathtaking view and great hospitality. Would definitely return!",
+        rating: 5,
+      },
+      {
+        avatar: "/images/user2.jpg",
+        name: "Kofi Mensah",
+        comment: "Spacious rooms and peaceful surroundings. Loved every moment.",
+        rating: 4.5,
+      },
+    ],
   },
   {
     name: "Mountain Escape Chalet",
     address: {
       state: "Aspen",
       city: "Colorado",
-      country: "USA"
+      country: "USA",
     },
-    rating: 4.70,
+    rating: 4.7,
     category: ["Mountain View", "Fireplace", "Self Checkin"],
     price: 1800,
     offers: {
       bed: "4",
       shower: "2",
-      occupants: "5-7"
+      occupants: "5-7",
     },
     image: "/assets/ListingImages/image_6.png",
-    discount: "30"
+    discount: "30",
+    description:
+      "A cozy wooden chalet nestled among Aspen’s snowy peaks. Enjoy a fireplace and scenic hiking trails nearby.",
+    reviews: [
+      {
+        avatar: "/images/user3.jpg",
+        name: "Efua Nyarko",
+        comment: "The perfect getaway spot for winter holidays. Very comfortable!",
+        rating: 5,
+      },
+      {
+        avatar: "/images/user4.jpg",
+        name: "Yaw Boateng",
+        comment: "Beautiful interior and fantastic mountain views.",
+        rating: 4,
+      },
+    ],
   },
   {
     name: "Cozy Desert Retreat",
     address: {
       state: "Palm Springs",
       city: "California",
-      country: "USA"
+      country: "USA",
     },
     rating: 4.92,
     category: ["Desert View", "Pet Friendly", "Self Checkin"],
@@ -49,17 +82,33 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps [] = [{
     offers: {
       bed: "2",
       shower: "1",
-      occupants: "2-3"
+      occupants: "2-3",
     },
     image: "/assets/ListingImages/image_7.png",
-    discount: ""
+    discount: "",
+    description:
+      "A minimalist desert retreat offering tranquility and warmth. Great for couples seeking a quiet escape.",
+    reviews: [
+      {
+        avatar: "/images/user5.jpg",
+        name: "Abena Owusu",
+        comment: "A hidden gem! Loved the peaceful desert vibe.",
+        rating: 5,
+      },
+      {
+        avatar: "/images/user6.jpg",
+        name: "Kwesi Johnson",
+        comment: "Small but cozy and very clean. Ideal for two.",
+        rating: "4.5",
+      },
+    ],
   },
   {
     name: "City Lights Penthouse",
     address: {
       state: "New York",
       city: "New York",
-      country: "USA"
+      country: "USA",
     },
     rating: 4.85,
     category: ["City View", "Free WiFi", "24h Checkin"],
@@ -67,17 +116,33 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps [] = [{
     offers: {
       bed: "2",
       shower: "2",
-      occupants: "2-4"
+      occupants: "2-4",
     },
     image: "/assets/ListingImages/image_8.png",
-    discount: "15"
+    discount: "15",
+    description:
+      "Experience luxury at the heart of NYC. This penthouse offers skyline views and modern amenities for urban travelers.",
+    reviews: [
+      {
+        avatar: "/images/user7.jpg",
+        name: "Nana Adwoa",
+        comment: "The city view from the balcony is absolutely stunning!",
+        rating: 5,
+      },
+      {
+        avatar: "/images/user8.jpg",
+        name: "Kojo Agyeman",
+        comment: "Perfect spot for a weekend stay in the city. Worth every penny.",
+        rating: 4.5,
+      },
+    ],
   },
   {
     name: "Riverside Cabin",
     address: {
       state: "Queenstown",
       city: "Otago",
-      country: "New Zealand"
+      country: "New Zealand",
     },
     rating: 4.77,
     category: ["Riverside", "Private Dock", "Free Kayaks"],
@@ -85,263 +150,29 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps [] = [{
     offers: {
       bed: "3",
       shower: "2",
-      occupants: "4-6"
+      occupants: "4-6",
     },
     image: "/assets/ListingImages/image_9.png",
-    discount: "20"
+    discount: "20",
+    description:
+      "A cozy riverside cabin surrounded by nature. Ideal for kayaking, fishing, or relaxing by the water.",
+    reviews: [
+      {
+        avatar: "/images/user9.jpg",
+        name: "Akua Frempong",
+        comment: "The riverside location is peaceful and refreshing.",
+        rating: 4.5,
+      },
+      {
+        avatar: "/images/user10.jpg",
+        name: "Yaw Appiah",
+        comment: "Loved kayaking in the morning. A perfect getaway!",
+        rating: 5,
+      },
+    ],
   },
-  {
-    name: "Modern Beachfront Villa",
-    address: {
-      state: "Sidemen",
-      city: "Bali",
-      country: "Indonesia"
-    },
-    rating: 4.95,
-    category: ["Beachfront", "Private Pool", "Chef Service"],
-    price: 5000,
-    offers: {
-      bed: "5",
-      shower: "4",
-      occupants: "8-10"
-    },
-    image: "/assets/ListingImages/image_10.png",
-    discount: ""
-  },
-  {
-    name: "Lakeside Chalet",
-    address: {
-      state: "Banff",
-      city: "Alberta",
-      country: "Canada"
-    },
-    rating: 4.65,
-    category: ["Lakeside", "Mountain View", "Hiking Trails"],
-    price: 2300,
-    offers: {
-      bed: "3",
-      shower: "3",
-      occupants: "4-5"
-    },
-    image: "/assets/ListingImages/image_11.png",
-    discount: "10"
-  },
-  {
-    name: "Tropical Garden Villa",
-    address: {
-      state: "Koh Samui",
-      city: "Surat Thani",
-      country: "Thailand"
-    },
-    rating: 4.80,
-    category: ["Garden", "Free Parking", "Self Checkin"],
-    price: 2750,
-    offers: {
-      bed: "3",
-      shower: "3",
-      occupants: "5-6"
-    },
-    image: "/assets/ListingImages/image_12.png",
-    discount: "25"
-  },
-  {
-    name: "Urban Loft",
-    address: {
-      state: "Berlin",
-      city: "Berlin",
-      country: "Germany"
-    },
-    rating: 4.60,
-    category: ["City Center", "Free WiFi", "24h Checkin"],
-    price: 2000,
-    offers: {
-      bed: "2",
-      shower: "1",
-      occupants: "2-3"
-    },
-    image: "/assets/ListingImages/image_13.png",
-    discount: ""
-  },
-  {
-    name: "Secluded Forest Cabin",
-    address: {
-      state: "Whistler",
-      city: "British Columbia",
-      country: "Canada"
-    },
-    rating: 4.72,
-    category: ["Secluded", "Hot Tub", "Self Checkin"],
-    price: 2600,
-    offers: {
-      bed: "4",
-      shower: "2",
-      occupants: "5-7"
-    },
-    image: "/assets/ListingImages/image_15.png",
-    discount: "40"
-  },
-  {
-    name: "Cliffside Villa",
-    address: {
-      state: "Amalfi",
-      city: "Salerno",
-      country: "Italy"
-    },
-    rating: 4.93,
-    category: ["Cliffside", "Infinity Pool", "Sea View"],
-    price: 6000,
-    offers: {
-      bed: "4",
-      shower: "4",
-      occupants: "6-8"
-    },
-    image: "/assets/ListingImages/image_16.png",
-    discount: "50"
-  },
-  {
-    name: "Coastal Escape Villa",
-    address: {
-      state: "Noosa",
-      city: "Queensland",
-      country: "Australia"
-    },
-    rating: 4.83,
-    category: ["Beachfront", "Pet Friendly", "Free Parking"],
-    price: 3400,
-    offers: {
-      bed: "3",
-      shower: "3",
-      occupants: "4-6"
-    },
-    image: "/assets/ListingImages/image_18.png",
-    discount: ""
-  },
-  {
-    name: "Downtown Apartment",
-    address: {
-      state: "Tokyo",
-      city: "Tokyo",
-      country: "Japan"
-    },
-    rating: 4.81,
-    category: ["City Center", "Free WiFi", "Public Transport"],
-    price: 2200,
-    offers: {
-      bed: "1",
-      shower: "1",
-      occupants: "2"
-    },
-    image: "/assets/ListingImages/image_5.png",
-    discount: ""
-  },
-  {
-    name: "Luxury Safari Lodge",
-    address: {
-      state: "Serengeti",
-      city: "Mara",
-      country: "Tanzania"
-    },
-    rating: 4.97,
-    category: ["Safari", "Guided Tours", "Free Breakfast"],
-    price: 4500,
-    offers: {
-      bed: "4",
-      shower: "4",
-      occupants: "6-8"
-    },
-    image: "/assets/ListingImages/image_1.png",
-    discount: "20"
-  },
-  {
-    name: "Countryside Cottage",
-    address: {
-      state: "Cotswolds",
-      city: "Gloucestershire",
-      country: "UK"
-    },
-    rating: 4.58,
-    category: ["Countryside", "Fireplace", "Self Checkin"],
-    price: 1800,
-    offers: {
-      bed: "2",
-      shower: "1",
-      occupants: "2-4"
-    },
-    image: "/assets/DetailImages/image_24.png",
-    discount: "25"
-  },
-  {
-    name: "Riverfront Mansion",
-    address: {
-      state: "Paris",
-      city: "Île-de-France",
-      country: "France"
-    },
-    rating: 4.86,
-    category: ["Riverfront", "Private Garden", "Self Checkin"],
-    price: 5000,
-    offers: {
-      bed: "4",
-      shower: "3",
-      occupants: "6-8"
-    },
-    image: "/assets/DetailImages/image_25.jpg",
-    discount: "30"
-  },
-  {
-    name: "Ski Chalet",
-    address: {
-      state: "Zermatt",
-      city: "Valais",
-      country: "Switzerland"
-    },
-    rating: 4.75,
-    category: ["Mountain View", "Ski Access", "Fireplace"],
-    price: 3900,
-    offers: {
-      bed: "3",
-      shower: "3",
-      occupants: "4-5"
-    },
-    image: "/assets/DetailImages/image_25_(1).png",
-    discount: ""
-  },
-  {
-    name: "Island Paradise Villa",
-    address: {
-      state: "Mahe",
-      city: "Victoria",
-      country: "Seychelles"
-    },
-    rating: 4.98,
-    category: ["Beachfront", "Private Pool", "Chef Service"],
-    price: 6500,
-    offers: {
-      bed: "5",
-      shower: "5",
-      occupants: "8-10"
-    },
-    image: "/assets/DetailImages/image_25_(2).png",
-    discount: "60"
-  },
-  {
-    name: "Clifftop Retreat",
-    address: {
-      state: "Cape Town",
-      city: "Western Cape",
-      country: "South Africa"
-    },
-    rating: 4.78,
-    category: ["Ocean View", "Private Pool", "Self Checkin"],
-    price: 4100,
-    offers: {
-      bed: "3",
-      shower: "3",
-      occupants: "4-5"
-    },
-    image: "/assets/DetailImages/image_25_(3).png",
-    discount: ""
-}];
+];
+
 
 export const HERO_BACKGROUND = "/assets/HeroImages/Image1.png";
 
