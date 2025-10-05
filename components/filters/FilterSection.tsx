@@ -7,9 +7,9 @@ const FilterSection: React.FC = () => {
 
     return (
         <div className="flex flex-wrap gap-3 p-4">
-            {FILTERS.map((filter) => (
+            {FILTERS.map((filter, i) => (
                 <Pill 
-                    key={filter}
+                    key={i}
                     label="filter"
                     active={activeFilter === filter}
                     onClick={() => setActiveFilter(filter)}

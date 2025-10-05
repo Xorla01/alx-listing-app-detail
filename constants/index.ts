@@ -16,7 +16,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "3",
       occupants: "4-6",
     },
-    image: "/assets/ListingImages/image_5.png",
+    image: "/assets/ListingImages/image 5.png",
     discount: "",
     description:
       "A serene villa with panoramic ocean views and modern tropical design. Perfect for families or couples seeking luxury by the beach.",
@@ -50,7 +50,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "2",
       occupants: "5-7",
     },
-    image: "/assets/ListingImages/image_6.png",
+    image: "/assets/ListingImages/image 6.png",
     discount: "30",
     description:
       "A cozy wooden chalet nestled among Aspen’s snowy peaks. Enjoy a fireplace and scenic hiking trails nearby.",
@@ -84,7 +84,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "1",
       occupants: "2-3",
     },
-    image: "/assets/ListingImages/image_7.png",
+    image: "/assets/ListingImages/image 7.png",
     discount: "",
     description:
       "A minimalist desert retreat offering tranquility and warmth. Great for couples seeking a quiet escape.",
@@ -118,7 +118,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "2",
       occupants: "2-4",
     },
-    image: "/assets/ListingImages/image_8.png",
+    image: "/assets/ListingImages/image 8.png",
     discount: "15",
     description:
       "Experience luxury at the heart of NYC. This penthouse offers skyline views and modern amenities for urban travelers.",
@@ -152,7 +152,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       shower: "2",
       occupants: "4-6",
     },
-    image: "/assets/ListingImages/image_9.png",
+    image: "/assets/ListingImages/image 9.png",
     discount: "20",
     description:
       "A cozy riverside cabin surrounded by nature. Ideal for kayaking, fishing, or relaxing by the water.",

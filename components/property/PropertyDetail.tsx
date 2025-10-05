@@ -22,7 +22,7 @@ export const PropertyDetail: React.FC<{ property: PropertyProps }> = ({ property
 
             {/*Description*/}
             <div className="mt-4">
-                <h2 className="text-2xl2xl font-semibold">Description</h2>
+                <h2 className="text-2xl font-semibold">Description</h2>
                 <p>{property.description}</p>
             </div>
 
